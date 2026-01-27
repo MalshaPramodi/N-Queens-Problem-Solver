@@ -36,3 +36,25 @@ Designed to efficiently handle **large N values (N ≥ 18)** by combining fast s
 
 Input is read from a text file.
 
+---
+
+## 📤 Output Format
+
+Output is written to `<input_file>_output.txt`
+
+
+Each solution lists queen positions (1-based column indices).
+
+---
+
+## ▶️ How to Compile and Run
+
+### Compile
+g++ -std=c++17 -O3 -march=native -pthread -flto -ffast-math -funroll-loops -o nqueens_solver 
+nqueens_solver.cpp 
+If encounter issues with advanced flags, use: 
+g++ -std=c++17 -O3 -pthread -o nqueens_solver nqueens_solver.cpp 
+
+
+
+
