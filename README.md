@@ -42,8 +42,10 @@ Input is read from a text file.
 
 Output is written to `<input_file>_output.txt`
 
+---
+Column Index Representation
 
-Each solution lists queen positions (1-based column indices).
+Represent a solution by listing the column position of the queen in each row.  
 
 ---
 
@@ -52,9 +54,16 @@ Each solution lists queen positions (1-based column indices).
 ### Compile
 g++ -std=c++17 -O3 -march=native -pthread -flto -ffast-math -funroll-loops -o nqueens_solver 
 nqueens_solver.cpp 
+
+---
+
 If encounter issues with advanced flags, use: 
 g++ -std=c++17 -O3 -pthread -o nqueens_solver nqueens_solver.cpp 
 
+---
 
+### Run
 
+Run the program with the input file containing a single integer N (board size): 
+./nqueens_solver.exe input1.txt 
 
