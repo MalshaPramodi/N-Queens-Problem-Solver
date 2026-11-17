@@ -73,4 +73,4 @@ Run the program with the input file containing a single integer N (board size):
 
 For a detailed explanation of the algorithm, implementation approach, optimisation techniques, multithreading strategy, performance considerations, and limitations, refer to the project report.
 
-📘 **[View the N-Queens Problem Solver Report (PDF)](docs/N-Queens-Solution-Report.pdf)**
+📘 **[View the N-Queens Problem Solver Report (PDF)](documents /N-Queens-Solution-Report.pdf)**
